@@ -1,0 +1,24 @@
+.modal-outside{ 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.75); 
+    display: grid;
+    place-content: center;
+    z-index: 100;
+}
+.row{ 
+    margin: 20px 0;
+}
+.row label{ 
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.row input{ 
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+}
